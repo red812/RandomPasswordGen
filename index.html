@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate a</h1>
+            <h1 class="secondary"> random password</h1>
+            <p class="description">Never use an insecure password again</p>
+            <div class="generator">
+                <button onclick="generatePasswords()" class="primary">Generate Passwords</button>
+                <label for="pdlength" id="pdlengthlabel"></label>
+                <input type="range" name="pdlength" min="5" max="14" step="1" id="pdlength">
+                <!-- <p id="pwdlengthdisplay"></p> -->
+            </div>
+            <hr>
+            <div class="generatedpwds">
+                <!-- <input class="pwd" type="text" readonly onclick="this.select(); navigator.clipboard.writeText(this.value);"> -->
+                <input readonly class="pwd" type="text"/>
+                <input readonly class="pwd" type="text"/>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

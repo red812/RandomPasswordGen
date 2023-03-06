@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: #1c1c1c;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  color: #ffffff;
+  line-height: 0.5;
+}
+
+.secondary {
+  color: #4adf86;
+}
+
+.container {
+  padding: 40px 50px;
+  background-color: #1f2937;
+  height: 400px;
+  width: 600px;
+}
+
+.description {
+  color: #d5d4d8;
+  font-family: "Inter", sans-serif;
+}
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+button {
+  background-color: #10b981;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-top: 1px solid #2f3e53;
+}
+
+.generatedpwds {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-top: 30px;
+}
+
+input {
+  background-color: #273549;
+  border-radius: 6px;
+  border: none;
+  height: 30px;
+  flex-grow: 1;
+}
+
+input:focus-visible {
+  outline: orange;
+}
+
+.pwd {
+  margin-right: 15px;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+label {
+  color: #ffffff;
+}
